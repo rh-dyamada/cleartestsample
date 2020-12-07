@@ -33,7 +33,7 @@ public class ClearSampleTest {
 
         // assert
         $("#input").should(Condition.empty);
-        $("#label").should(Condition.empty);
+        $("#label").should(Condition.empty);    // fail
 
     }
 
