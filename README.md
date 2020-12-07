@@ -1,5 +1,12 @@
 # In Selenium's (or Selenide's) clearing process, Vue.js binding variables are not replaced.
 
+## How to run
+```
+./mvn test
+```
+
+## Description
+
 If the text field is bound in v-model as in the following sample.
 ```
 <input id="input" class="form-control" v-model="inputText">
